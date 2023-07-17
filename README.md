@@ -20,7 +20,7 @@ You can install them using pip: pip install pandas unittest</p>
 # Usage
 To run the data pipeline and execute the unit tests, execute the following command in the project directory:
 
-<i><b>python unit_testing.py</i><b>
+<i><b>python unit_testing.py</i></b>
 
 The data pipeline will read the billing data from a CSV file, perform the necessary transformations, and save the transformed data to another CSV file. The unit tests will be executed to ensure the correctness of the data pipeline functions.</p>
 
@@ -34,6 +34,7 @@ Check if the DataFrame has non-null values in all columns.</p>
 Check if the DataFrame has at least one row.</p>
 
 ii. data_transformation</p>
+
 Check if the result of the transformation matches the expected transformed data.</p>
 
 iii. data_loading </p>
